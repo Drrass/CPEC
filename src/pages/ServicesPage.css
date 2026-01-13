@@ -1,0 +1,219 @@
+.services-page {
+  min-height: calc(100vh - 80px);
+}
+
+.services-section {
+  padding: 5rem 0;
+  background-color: #ffffff;
+}
+
+.services-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.services-content {
+  width: 100%;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1E40AF;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.services-intro {
+  font-size: 1.25rem;
+  color: #374151;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.expertise-section {
+  margin-bottom: 3.5rem;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  border-radius: 1rem;
+  border-left: 4px solid #1E40AF;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.expertise-section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1E40AF;
+  margin-bottom: 1rem;
+}
+
+.expertise-section-desc {
+  font-size: 1.125rem;
+  color: #4B5563;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.expertise-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expertise-list li {
+  font-size: 1.0625rem;
+  color: #374151;
+  line-height: 1.9;
+  margin-bottom: 0.875rem;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.expertise-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #1E40AF;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.cpec-advantage {
+  margin-top: 4rem;
+  padding: 3rem;
+  background: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);
+  border-radius: 1rem;
+  text-align: center;
+  color: white;
+  box-shadow: 0 10px 30px rgba(30, 64, 175, 0.2);
+}
+
+.advantage-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.advantage-text {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+}
+
+.advantage-text strong {
+  color: white;
+  font-weight: 700;
+  font-size: 1.375rem;
+}
+
+@media (max-width: 768px) {
+  .services-section {
+    padding: 3rem 0;
+  }
+
+  .services-container {
+    padding: 0 1.5rem;
+  }
+
+  .services-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .services-intro {
+    font-size: 1.125rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .expertise-section {
+    padding: 2rem 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .expertise-section-title {
+    font-size: 1.5rem;
+  }
+
+  .expertise-section-desc {
+    font-size: 1rem;
+  }
+
+  .expertise-list li {
+    font-size: 1rem;
+  }
+
+  .cpec-advantage {
+    padding: 2rem 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .advantage-title {
+    font-size: 1.75rem;
+  }
+
+  .advantage-text {
+    font-size: 1.125rem;
+  }
+
+  .advantage-text strong {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-section {
+    padding: 2.5rem 0;
+  }
+
+  .services-container {
+    padding: 0 1rem;
+  }
+
+  .services-title {
+    font-size: 1.75rem;
+  }
+
+  .services-intro {
+    font-size: 1rem;
+  }
+
+  .expertise-section {
+    padding: 1.75rem 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .expertise-section-title {
+    font-size: 1.25rem;
+  }
+
+  .expertise-section-desc {
+    font-size: 0.9375rem;
+  }
+
+  .expertise-list li {
+    font-size: 0.9375rem;
+    padding-left: 1.75rem;
+  }
+
+  .cpec-advantage {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .advantage-title {
+    font-size: 1.5rem;
+  }
+
+  .advantage-text {
+    font-size: 1rem;
+  }
+
+  .advantage-text strong {
+    font-size: 1.125rem;
+  }
+}

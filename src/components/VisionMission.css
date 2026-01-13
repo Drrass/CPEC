@@ -1,0 +1,139 @@
+.vision-mission {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  color: white;
+}
+
+.vm-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.vision-section,
+.mission-section {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 3rem 2.5rem;
+}
+
+.vm-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.vm-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+}
+
+.mission-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mission-item {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.mission-item:last-child {
+  margin-bottom: 0;
+}
+
+.mission-check {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 968px) {
+  .vm-container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .vision-section,
+  .mission-section {
+    padding: 2.5rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .vision-mission {
+    padding: 3.5rem 0;
+  }
+
+  .vm-container {
+    padding: 0 1.5rem;
+    gap: 2rem;
+  }
+
+  .vision-section,
+  .mission-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .vm-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .vm-text {
+    font-size: 1rem;
+  }
+
+  .mission-item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .vision-mission {
+    padding: 3rem 0;
+  }
+
+  .vm-container {
+    padding: 0 1rem;
+  }
+
+  .vision-section,
+  .mission-section {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .vm-title {
+    font-size: 1.5rem;
+  }
+
+  .vm-text {
+    font-size: 0.9375rem;
+  }
+
+  .mission-item {
+    font-size: 0.9375rem;
+  }
+}
