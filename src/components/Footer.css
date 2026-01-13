@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(135deg, #1E40AF 0%, #1e3a8a 100%);
+  background: linear-gradient(135deg, #134E4A 0%, #0F766E 100%);
   color: white;
   padding: 3rem 0 1.5rem;
   margin-top: auto;
@@ -41,7 +41,7 @@
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: white;
+  color: #F59E0B;
 }
 
 .footer-links {
@@ -58,12 +58,12 @@
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   font-size: 1rem;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .footer-links a:hover {
-  color: white;
-  text-decoration: underline;
+  color: #FCD34D;
+  padding-left: 5px;
 }
 
 .footer-contact p {
@@ -74,14 +74,14 @@
 }
 
 .footer-contact strong {
-  color: white;
+  color: #F59E0B;
   font-weight: 600;
 }
 
 .footer-cta-btn {
   display: inline-block;
-  background: white;
-  color: #1E40AF;
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+  color: white;
   padding: 0.875rem 2rem;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -90,19 +90,20 @@
   transition: all 0.3s ease;
   text-align: center;
   margin-top: 0.5rem;
+  box-shadow: 0 4px 14px rgba(245, 158, 11, 0.3);
 }
 
 .footer-cta-btn:hover {
-  background: #f0f9ff;
+  background: linear-gradient(135deg, #D97706 0%, #B45309 100%);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 1.5rem;
   text-align: center;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 0.9375rem;
 }
 

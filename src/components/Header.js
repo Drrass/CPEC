@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import cpecLogo from '../assets/cpec_logo.jpg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,12 +14,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <div className="logo-icon">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 5L30 15L20 25L10 15L20 5Z" fill="#1E40AF" />
-              <path d="M20 15L25 20L20 25L15 20L20 15Z" fill="#3B82F6" />
-            </svg>
-          </div>
+          <img src={cpecLogo} alt="CPEC Logo" className="logo-img" />
           <span className="logo-text">CPEC</span>
         </Link>
         
